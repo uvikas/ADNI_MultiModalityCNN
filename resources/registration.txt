@@ -1,0 +1,16 @@
+FSL FLIRT (LINEAR AFFINE IMAGING REGISTRATION)
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide
+
+Powerpoint about FSL tool
+https://gate.nmr.mgh.harvard.edu/wiki/whynhow/images/8/8f/WhyNhow_FSL_final-WEB.pdf
+
+Elasti registration
+https://elastix.lumc.nl/
+
+
+ADNI Preprocess
+http://adni.loni.usc.edu/methods/mri-tool/mri-analysis/#mri-pre-processing-container
+
+Brain Viewer
+https://socr.umich.edu/HTML5/BrainViewer/
+

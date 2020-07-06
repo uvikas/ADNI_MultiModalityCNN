@@ -1,0 +1,14 @@
+1. Download dataset from ADNI imaging portal
+2. Rearrange directories for convenient access of data
+
+FOR MRI
+3. Convert .img/.hdr files to .nii by resampling the 3D volumetric image into 256x256x256 voxels with 1x1x1mm resolution (used nibabel)
+4. Extract brain from resampled image (remove eyeballs, facial characteristics, neck)
+    BET - Brain Extraction Tool
+5. Register image with reference to NIFT image (FLIRT algorithm on FSL)
+
+FOR PET
+6. Repeat 3-4 for PET
+7. Register image with reference to corresponding registered MRI image (FLIRT algorithm on FSL)
+
+8. Split MRI and PET image into 3x3x3 segments for feature extraction

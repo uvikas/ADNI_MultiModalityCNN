@@ -1,1 +1,1 @@
-# ADNI_MultiModalityCNN
+# ADNI_Multi_Modality
